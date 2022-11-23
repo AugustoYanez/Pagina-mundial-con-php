@@ -1,0 +1,262 @@
+*{
+
+box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: qatarheavy;
+margin: 0px;
+}
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.7em;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.25em;
+}
+
+button{
+
+font-size: 2em;
+font-weight: bold;
+
+padding: 10px 40px;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 10px;
+color: white;
+font-family: qatarheavy;
+background-color:  rgb(223, 184, 13);
+}
+button:hover{
+    background-color: rgb(139, 110, 12);
+
+} 
+
+.container{
+
+max-width: 1400px;
+margin: auto;
+
+
+}
+
+header {
+background-color: rgb(245, 245, 245);
+
+
+}
+
+
+
+
+header .logo{
+    font-family: qatarheavy;
+margin: 0px;
+padding: 25px 30px;
+font-weight: bold;
+color: rgb(138, 21, 56);
+font-size: 1.45em;
+}
+
+header .container{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0;
+    flex-direction: row;
+    padding-right: 20px;
+
+}
+
+header a{
+    padding: 5px 12px;
+text-decoration: none;
+font-weight: bold;
+font-family: qatarheavy;
+color: rgb(138, 21, 56);
+}
+
+header a:hover{
+
+    color: rgb(223, 184, 13);
+}
+
+#hero{
+    font-family: qatarheavy;
+    display: flex;
+    align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 90vh;
+color: white;
+background-image: linear-gradient(
+0deg,
+rgba(0,0,0,0.5),
+rgba(0,0,0,0.5)
+
+)
+,url("img/inauguracion.jpg");
+background-size:cover ;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#mundiales .container {
+
+
+padding: 50px 100px;
+
+
+
+}
+
+.Mmundiales:first-child{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 90vh;
+color: white;
+background-size:cover ;
+background-repeat: no-repeat;
+background-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        
+        )
+        ,url("img/mundial010.jpg");
+}
+
+.Mmundiales:nth-child(2){
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 90vh;
+color: white;
+background-size:cover ;
+background-repeat: no-repeat;
+background-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        
+        )
+        ,url("img/mundial14.jpg");
+}
+.Mmundiales:nth-child(3){
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 90vh;
+color: white;
+background-size:cover ;
+background-repeat: no-repeat;
+background-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        
+        )
+        ,url("img/mundial18.jpeg");
+}
+
+
+
+
+#mundiales .otromundiales {
+    
+display: flex;
+
+
+
+}
+
+#mundiales  .Mmundiales:first-child{
+    border-radius: 20px;
+ margin: 20px;
+ 
+}
+#mundiales  .Mmundiales:nth-child(2){
+    border-radius: 20px;
+    margin: 20px;
+}
+#mundiales  .Mmundiales:nth-child(3){
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#mundiales {
+    background-color: rgb(0, 0, 0);
+}
+
+#idmun
+{
+color: rgb(223, 184, 13);
+    font-size: 3.5em;
+    font-family: qatarheavy;
+    display: flex;
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+#idmun:hover
+{
+
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+/* FUENTES QATAR */
+@font-face{   /* FUENTES QATAR -bold */
+    font-family: qatarbold;
+    src: url(Fuentes/Qatar2022-Bold.otf);
+}
+@font-face{  /* FUENTES QATAR - heavy */
+    font-family: qatarheavy;
+    src: url(Fuentes/Qatar2022-Heavy.woff);
+}
+@font-face{  /* FUENTES QATAR - arabic bold*/
+    font-family: qatararabic;
+    src: url(Fuentes/Qatar2022Arabic-Bold.otf);
+}
+@font-face{  /* FUENTES QATAR - mediumm*/
+    font-family: qatarmedium;
+    src: url(Fuentes/Qatar2022Arabic-Medium.woff);
+}
+
